@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>PR Quiz</title>
+</head>
+<body>
+    <h1>Welcome to Quiz Compatition</h1>
+
+    <form id="quiz1" name="quiz_name">
+        <p>Question 1</p>
+        <input id="textbox" type="text" name="question1" placeholder="answer here">
+
+        <p>Question 2</p>
+        <input type="radio" id="Q2" name="question2" value="Option01">Option 1<br>
+        <input type="radio" id="Q2" name="question2" value="Option02">Option 2<br>
+
+        <p>Question 3</p>
+        <input type="radio" id="Q2" name="question3" value="Option03">Option 1<br>
+        <input type="radio" id="Q2" name="question3" value="Option04">Option 2<br>
+        <br>
+        <input id="button" type="button" value="I'm finished!" onclick="check();">
+
+    </form>
+
+    <div id="result_screen">
+        <p id="message"></p>
+        <p id="correction_made">Hey!! You finished good job</p>
+        <img id="picture">
+    </div>
+    
+</body>
+</html>
